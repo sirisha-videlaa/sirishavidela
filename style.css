@@ -1,0 +1,39 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background: linear-gradient(rgba(0, 0, 0, 0.2),#FFB6C1);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background: linear-gradient(rgba(0, 0, 0, 0.1)#ADD8E6);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background: linear-gradient(rgba(0, 0, 0, 0.2)#ADD8E6);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgba(0, 0, 0, 0.2);
+}
